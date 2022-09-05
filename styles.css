@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #26282b;
+}
+
+.pw-container {
+  width: 500px;
+  height: 500px;
+  background-color: #353941;
+  margin: auto;
+}
+
+.pw-content {
+  height: 560px;
+  margin: 30px;
+  padding-top: 30px;
+}
+
+.pw {
+  width: 500px;
+  height: 100px;
+  background-color: #353941;
+  margin: auto;
+  margin-top: 200px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pw h1 {
+  padding-top: 30px;
+  font-size: 35px;
+  color: white;
+  margin-left: 20px;
+}
+
+.pw button {
+  background-color: #353941;
+  border-style: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.pw button i {
+  font-size: 35px;
+  text-align: center;
+}
+
+.form-control {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  font-size: 25px;
+  color: white;
+}
+
+.slider-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.slider input {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.slider input[type="”range”"] {
+  -webkit-appearance: none !important;
+  width: 420px;
+  height: 2px;
+  background: #7e6d57;
+  border: none;
+  outline: none;
+}
+.slider input[type="”range”"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 30px;
+  height: 30px;
+  background: #fcfcfc;
+  border: 2px solid #7e6d57;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slider input[type="”range”"]::-webkit-slider-thumb:hover {
+  background: #7e6d57;
+}
+
+.strength {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  font-size: 25px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.generate {
+  width: 100%;
+}
+
+.generate button {
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 20px;
+  border-style: none;
+  background-color: #5f85db;
+}
+
+.generate button:hover {
+  cursor: pointer;
+  background-color: #90b8f8;
+}
